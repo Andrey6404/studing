@@ -87,6 +87,7 @@ end
 
 function plot_of_orbit(X_earth,Y_earth,X_moon2sun,Y_moon2sun)
     global P_earth; global P_earth_trase; global P_sun; global P_moon; global P_moon_trase;
+    hold off; 
     P_earth=plot(X_earth,Y_earth,'.');              hold on;
     P_earth_trase=plot(X_earth,Y_earth,':');        hold on;
     P_sun=plot(0,0,'*r');                           hold on;
